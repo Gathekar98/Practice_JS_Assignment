@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Modal Example</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookingDetailsModal">
+    Open Booking Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="bookingDetailsModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+
+        <!-- Modal Header -->
+        <div class="header">
+          <h4>Booking Details</h4>            
+         <h6>Booking ID: 5678378236757</h6>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <div class="table-container"> 
+        <table>
+            <thead>
+              <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th>EMAIL ID</th>
+                <th>MOBILE NUMBER</th>
+                <th>PREFERENCE</th>
+                <th>GENDER</th>
+                <th>AGE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Abhishek</td>
+                <td >abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Veg Food</td>
+                <td>Male</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Gayatri</td>
+                <td>abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Veg Food</td>
+                <td>Female</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Prabhakar</td>
+                <td>abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Veg Food</td>
+                <td>Male</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Nimriti</td>
+                <td>abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Non-Veg Food</td>
+                <td>Female</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>Urmila</td>
+                <td>abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Veg Food</td>
+                <td>Female</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>Mahendra</td>
+                <td>abhishek@gmail.com</td>
+                <td>+91 2134567896</td>
+                <td>Non-Veg Food</td>
+                <td>Male</td>
+                <td>38</td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>Mandar</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Veg Food</td>
+                <td>Male</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>Ujwala</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Veg Food</td>
+                <td>Female</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+</div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary close-btn" data-dismiss="modal">close</button>
+          <button type="button" class="btn btn-secondary edit-btn" >Edit</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
