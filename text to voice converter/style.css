@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(242, 242, 121),rgb(216, 123, 138));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main h1{
+    font-size: 28px;
+    padding: 20px 30px;
+    color: rgb(33, 32, 32);
+}
+.main h1 span{
+    color: rgb(176, 7, 60);
+}
+textarea{
+    resize: none;
+    width:600px ;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    background: linear-gradient(50deg, rgb(15, 14, 44) , rgb(58, 24, 50)) ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    /* font-size: 15px; */
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+textarea::placeholder{
+    color: rgb(201, 196, 196);
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+.row{
+   width: 600px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+button{
+    background-color: rgb(176, 7, 60);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select{
+    flex: 1;
+    color: white;
+    background-color: rgb(167, 151, 151);
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:calc(100% - 20px);
+    background-position-y: 20px;
+}
